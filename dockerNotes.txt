@@ -1,2 +1,7 @@
 docker run -it ubuntu
 # -it -> interactive terminal
+
+docker container ls -aq
+# lists all the id
+
+docker run -p dışPort:içPort [imageAdı]
