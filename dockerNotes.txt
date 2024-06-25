@@ -5,3 +5,14 @@ docker container ls -aq
 # lists all the id
 
 docker run -p dışPort:içPort [imageAdı]
+
+docker run mongo --metwork=none
+# dışarıdan ve içeriden erişilemez.
+
+docker run mongo --network=host 
+# kendi bilgisayarın üzerinde çalışıyor gibi
+
+docker network ls
+# networkleri listelemek için
+
+docker rmi <imagename>
