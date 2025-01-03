@@ -1,8 +1,11 @@
+docker version
+# docker client ve server engine bilgilerini gösterir.
+
 docker run -it ubuntu
 # -it -> interactive terminal
 
 docker container ls -aq
-# lists all the id
+# lists all the IDs
 
 docker run -p dışPort:içPort [imageAdı]
 
@@ -16,3 +19,6 @@ docker network ls
 # networkleri listelemek için
 
 docker rmi <imagename>
+
+in linux type: echo $0
+# location of this shell program
